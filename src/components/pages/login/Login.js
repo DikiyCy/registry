@@ -1,6 +1,13 @@
 import React from 'react';
 import { withRouter } from 'react-router-dom';
+import InputText from '../../inputItem';
+import ButtonItem from '../../buttomItem';
+
+import { ValidEmail, ValidPassword } from '../../../service/validService';
+import DataService from '../../../service/serverService';
+
 import { connect } from 'react-redux';
+
 import {
 
   setEmailText,
@@ -13,10 +20,6 @@ import {
   setRefreshTokenText,
 
 } from '../../../store/auth/actions';
-import { ValidEmail, ValidPassword } from '../../../service/validService';
-import DataService from '../../../service/serverService';
-import InputText from '../../inputItem';
-import ButtonItem from '../../buttomItem';
 
 import './Login.scss';
 
