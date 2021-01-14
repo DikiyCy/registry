@@ -1,0 +1,18 @@
+.row {
+
+  color: white;
+  background-color: #65A6D1;
+  font-size: 20px;
+
+  &:nth-child(even) {
+    background-color: #fff;
+    color: #65A6D1;
+  }
+
+  &__data {
+
+    padding: 10px;
+
+  }
+
+}

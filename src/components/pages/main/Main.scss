@@ -1,0 +1,38 @@
+.main {
+
+  .container {
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  &__title {
+
+    font-size: 25px;
+    margin-bottom: 30px;
+
+  }
+
+  &__info {
+
+    width: 50%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+
+  }
+
+  &__img {
+
+    width: 200px;
+    height: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 20px;
+
+  }
+
+}
